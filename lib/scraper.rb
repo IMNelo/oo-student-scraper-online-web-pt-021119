@@ -27,6 +27,12 @@ class Scraper
     students = {}
     doc.css("div.social-icon-container a").each do |social_link|
       link = social_link.attribute("href").text
+      #twitter_url:
+      #linkedin_url:
+      #github_url:
+      #blog_url:
+      #profile_quote:
+      #bio:
 
     #binding.pry
     end
